@@ -8,5 +8,5 @@
 * [数组](di_5_zhang_shu_zu.md)
 * [对象](di_6_zhang_dui_xiang.md)
 * [Web技术](webji_zhu.md)
-* 数组库
+* [数组库](shu_zu_ku.md)
 
