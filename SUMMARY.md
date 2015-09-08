@@ -10,6 +10,5 @@
 * [Web技术](webji_zhu.md)
 * [数组库](shu_zu_ku.md)
 * [图像](tu_xiang.md)
-* PDF
-* 应用技术
+* [PDF](pdf.md)
 
