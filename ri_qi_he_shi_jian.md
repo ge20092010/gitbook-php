@@ -15,9 +15,6 @@
 ```
 DateTimeZone::listIdentifiers();
 
-
-dddd
-
-ddd
+timezone_identifiers_list();
 
 ```
