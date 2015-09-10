@@ -12,3 +12,12 @@
 
 * 获取全部时区
 
+```
+DateTimeZone::listIdentifiers();
+
+
+dddd
+
+ddd
+
+```
