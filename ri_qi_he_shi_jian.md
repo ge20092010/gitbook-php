@@ -22,6 +22,7 @@ timezone_identifiers_list();
 // 从服务器选择时区并把它放进DateTimeZone类
 $tz = ini_get('date.timezone');
 $dtz = new DateTimeZone($tz ? $tz : "Asia/Shanghai");
+// 需要从服务器获取日期和时间,第一个参数为now
 $dt = new DateTime("2015-09-10 19:00:10", $dtz);
 var_dump($dt->format("Y-m-d h:i"));
 ```
