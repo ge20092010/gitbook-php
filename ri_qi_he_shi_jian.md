@@ -62,6 +62,7 @@ echo "{$pastString} 和 {$currentString} 相差 {$diffString}";
 | % | 前缀%|
 
 ``````
+// 查看时区的经度、纬度、国家代码信息
 $tz = ini_get('date.timezone');
 $dtz = new DateTimeZone($tz ? $tz : 'Asia/Shanghai');
 
