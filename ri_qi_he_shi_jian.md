@@ -26,3 +26,24 @@ $dtz = new DateTimeZone($tz ? $tz : "Asia/Shanghai");
 $dt = new DateTime("2015-09-10 19:00:10", $dtz);
 var_dump($dt->format("Y-m-d h:i"));
 ```
+```
+// DateTime的diff()方法返回两个日期的差异
+$tz = ini_get('date.timezone');
+$dtz = new DateTimeZone($tz ? $tz : 'Asia/Shanghai');
+$past = new DateTime("2009-02-12 16:42:33", $dtz);
+$current =  new DateTime("now", $dtz);
+// 创新新的DateInterval实例
+$diff = $past->diff($current);
+$pastString = $past->format("Y-m-d");
+$currentString = $current->format("Y-m-d");
+$diffString = $diff->format("%yy %mm, %dd");
+echo "{$pastString} 和 {$currentString} 相差 {$diffString}";
+// 2009-02-12 和 2015-09-11 相差 6y 6m, 29d
+```
+* DateInterval格式化控制字符
+
+
+
+
+
+
