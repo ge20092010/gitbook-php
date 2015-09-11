@@ -59,8 +59,21 @@ echo "{$pastString} 和 {$currentString} 相差 {$diffString}";
 | S | 秒,包括前导0;例如05和15 |
 | y | 年份 |
 | Y | 年份,包括前导0;例如00和12 |
-| % | 前缀% |
+| % | 前缀%|
 
+``````
+$tz = ini_get('date.timezone');
+$dtz = new DateTimeZone($tz ? $tz : 'Asia/Shanghai');
+
+foreach($dtz->getLocation() as $k=>$v){
+    echo "{$k} {$v} \n";
+}
+
+// country_code CN 
+// latitude 31.23333 
+// longitude 121.46666 
+// comments Beijing Time
+``````
 
 
 
