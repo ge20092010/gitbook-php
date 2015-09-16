@@ -7,7 +7,7 @@
 * [[PHP编程第三版]字符串](di_4_zhang_zi_fu_chuan.md)
 * [[PHP编程第三版]数组](di_5_zhang_shu_zu.md)
 * [[PHP编程第三版]对象](di_6_zhang_dui_xiang.md)
-* [Web技术](webji_zhu.md)
+* [[PHP编程第三版]Web技术](webji_zhu.md)
 * [数组库](shu_zu_ku.md)
 * [图像](tu_xiang.md)
 * [PDF](pdf.md)
