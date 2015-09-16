@@ -25,4 +25,10 @@ echo PHP_EOL;
 //unix\linux平台相当于    echo "\n";
 //mac平台相当于    echo "\r";
 ``` 
+常见的特定平台扩展
+
+* 
+一些情况下,一些函数在Windows下是不可用的,甚至整个模块都不可用。
+
+* 
 
