@@ -10,7 +10,7 @@
 * [[PHP编程第三版]Web技术](webji_zhu.md)
 * [[PHP编程第三版]数组库](shu_zu_ku.md)
 * [[PHP编程第三版]图像](tu_xiang.md)
-* [PDF](pdf.md)
+* [[PHP编程第三版]PDF](pdf.md)
 * [XML](xml.md)
 * [安全](an_quan.md)
 * [应用技术](ying_yong_ji_zhu.md)
