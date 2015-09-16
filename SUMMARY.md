@@ -16,6 +16,6 @@
 * [应用技术](ying_yong_ji_zhu.md)
 * [不同平台的PHP](bu_tong_ping_tai_de_php.md)
 * [网页服务](wang_ye_fu_wu.md)
-* [调试PHP](diao_shi_php.md)
+* [[PHP编程第三版]调试PHP](diao_shi_php.md)
 * [[PHP编程第三版]日期和时间](ri_qi_he_shi_jian.md)
 
