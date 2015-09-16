@@ -19,4 +19,10 @@ PHP_OS的可能值包括HP-UX、Darwin(Mac OS)、Linux、SunOS、WIN32和WINNT�
 * 
 Windows中的文本文件行是以"\r\n"结束的,UNIX中的文本文件是以"\n"结束的。
 
+```
+echo PHP_EOL;
+//windows平台相当于    echo "\r\n";
+//unix\linux平台相当于    echo "\n";
+//mac平台相当于    echo "\r";
+``` 
 
