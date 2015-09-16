@@ -9,4 +9,9 @@ PHP_OS的可能值包括HP-UX、Darwin(Mac OS)、Linux、SunOS、WIN32和WINNT�
 * 
 内建函数php_uname(),可以返回更多的操作系统信息。
 
+服务器环境
+
+* 
+超级全局常量数组$_SERVER提供了服务器和执行环境的信息。
+
 
