@@ -12,7 +12,7 @@
 * [[PHP编程第三版]图像](tu_xiang.md)
 * [[PHP编程第三版]PDF](pdf.md)
 * [[PHP编程第三版]XML](xml.md)
-* [安全](an_quan.md)
+* [[PHP编程第三版]安全](an_quan.md)
 * [应用技术](ying_yong_ji_zhu.md)
 * [不同平台的PHP](bu_tong_ping_tai_de_php.md)
 * [网页服务](wang_ye_fu_wu.md)
