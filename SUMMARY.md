@@ -3,7 +3,7 @@
 * [[PHP编程第三版]目录](README.md)
 * [[PHP编程第三版]PHP介绍](di_1_zhang_php_jie_shao.md)
 * [[PHP编程第三版]语言基础](di_2_zhang_yu_yan_ji_chu.md)
-* [函数](di_3_zhang_han_shu.md)
+* [[PHP编程第三版]函数](di_3_zhang_han_shu.md)
 * [字符串](di_4_zhang_zi_fu_chuan.md)
 * [数组](di_5_zhang_shu_zu.md)
 * [对象](di_6_zhang_dui_xiang.md)
