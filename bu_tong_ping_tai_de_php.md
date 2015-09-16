@@ -14,4 +14,9 @@ PHP_OS的可能值包括HP-UX、Darwin(Mac OS)、Linux、SunOS、WIN32和WINNT�
 * 
 超级全局常量数组$_SERVER提供了服务器和执行环境的信息。
 
+行尾处理
+
+* 
+Windows中的文本文件行是以"\r\n"结束的,UNIX中的文本文件是以"\n"结束的。
+
 
