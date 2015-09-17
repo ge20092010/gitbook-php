@@ -37,5 +37,16 @@ trigger_error(message [, type]);
 * 
 第一个参数是错误信息,第二个(可选)参数表示等级E_USER_ERROR、E_USER_WARNING或E_USER_NOTICE(默认)中的一个。
 
-* 
+```
+function divider($a, $b){
+    if($b == 0){
+        trigger_error('$b cannot be 0', E_USER_ERROR);
+    }
+    return ($a/$b);
+}
 
+echo divider(200, 3);
+echo divider(10,0);
+// 66.666666666667
+// Fatal error: $b cannot be 0 in /Users/gehuanyun/a.php on line 5
+```
