@@ -84,4 +84,11 @@ echo 5/0; // Warning: Division by zero in /Users/gehuanyun/a.php on line 26
 ```
 性能调优
 
+* 
+一旦你的代码可以工作,你应该找出其中需要优化的。
+
+* 
+优化代码的目标通常为缩短运行时间和减少内存占用。
+
+* 
 
