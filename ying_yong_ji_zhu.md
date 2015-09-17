@@ -91,4 +91,8 @@ echo 5/0; // Warning: Division by zero in /Users/gehuanyun/a.php on line 26
 优化代码的目标通常为缩短运行时间和减少内存占用。
 
 * 
+优化之前,问自己哪里需要优化。
+
+* 
+只有在页面花费长时间加载并且用户感受到它慢的时候,优化才是必需的。
 
