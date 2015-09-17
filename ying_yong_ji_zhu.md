@@ -96,3 +96,8 @@ echo 5/0; // Warning: Division by zero in /Users/gehuanyun/a.php on line 26
 * 
 只有在页面花费长时间加载并且用户感受到它慢的时候,优化才是必需的。
 
+优化内存占用
+
+* 
+当处理完一个大字符串,把保存字符串的变量设置为空,这样释放内存以便重用。
+
