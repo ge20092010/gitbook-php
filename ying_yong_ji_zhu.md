@@ -61,7 +61,9 @@ function log_roller($error, $errorString){
     }
     // 3表示附加错误到文件
     error_log($errorString, 3, $file);
-    // 清除文件状态缓存,函数缓存特定文件名的信息，因此只在对同一个文件名进行多次操作并且需要该文件信息不被缓存时才需要调用
+    // 清除文件状态缓存
+    // 函数缓存特定文件名的信息
+    // 因此只在对同一个文件名进行多次操作并且需要该文件信息不被缓存时才需要调用
     clearstatcache();
     if(filesize($file) > 1024){
         rename($file, $file.(string)time());
