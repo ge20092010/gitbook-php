@@ -52,4 +52,31 @@ echo divider(10,0);
 ```
 错误处理器中的日志
 
+```
+// 日志分流错误处理器
+function log_roller($error, $errorString){
+    $file = '/tmp/php_errors.log';
+    if(!file_exists($file)){
+        touch($file);
+    }
+    // 3表示附加错误到文件
+    error_log($errorString, 3, $file);
+    // 清除文件状态缓存,函数缓存特定文件名的信息，因此只在对同一个文件名进行多次操作并且需要该文件信息不被缓存时才需要调用
+    clearstatcache();
+    if(filesize($file) > 1024){
+        rename($file, $file.(string)time());
+    }
+}
 
+set_error_handler('log_roller');
+
+for($i=0; $i<50000; $i++){
+    trigger_error(time().": Just an error, ma'am.\n");
+}
+
+echo 5/0; // 执行log_roller,直接写入日志
+
+restore_error_handler();// 还原之前的错误处理函数
+
+echo 5/0; // Warning: Division by zero in /Users/gehuanyun/a.php on line 26 
+```
