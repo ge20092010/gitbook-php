@@ -34,4 +34,8 @@ $a ^ $b	Xor（按位异或）	将把 $a 和 $b 中一个为 1 另一个为 0 的
 * 
 trigger_error(message [, type]);
 
+* 
+第一个参数是错误信息,第二个(可选)参数表示等级E_USER_ERROR、E_USER_WARNING或E_USER_NOTICE(默认)中的一个。
+
+* 
 
