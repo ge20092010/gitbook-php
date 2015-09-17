@@ -82,3 +82,6 @@ restore_error_handler();// 还原之前的错误处理函数
 
 echo 5/0; // Warning: Division by zero in /Users/gehuanyun/a.php on line 26 
 ```
+性能调优
+
+
