@@ -28,4 +28,10 @@ $a ^ $b	Xor（按位异或）	将把 $a 和 $b 中一个为 1 另一个为 0 的
 
 触发错误
 
+* 
+可以在脚本中用trigger_error()函数抛出一个错误。
+
+* 
+trigger_error(message [, type]);
+
 
