@@ -50,3 +50,6 @@ echo divider(10,0);
 // 66.666666666667
 // Fatal error: $b cannot be 0 in /Users/gehuanyun/a.php on line 5
 ```
+错误处理器中的日志
+
+
