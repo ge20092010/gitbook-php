@@ -18,4 +18,9 @@ bool ctype_upper ( string $text )检查 string 和 text 里面的字符是不是
 
 跨站脚本
 
-
+```
+// 为了预防XSS,你只需要合适地从输出中转义上下文
+$html = array(
+    'username' => htmlentities($_POST['username'], ENT_QUOTES, 'UTF-8');
+)
+```
