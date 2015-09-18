@@ -14,3 +14,4 @@ bool ctype_digit ( string $text )检查提供的 string 和 text 里面的字符
 bool ctype_lower ( string $text )检查提供的 string 和 text 里面的字符是不是都是小写字母。
 
 * 
+bool ctype_upper ( string $text )检查 string 和 text 里面的字符是不是都是大写字母。
