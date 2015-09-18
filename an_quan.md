@@ -25,3 +25,17 @@ $html = array(
 );
 echo $html;
 ```
+SQL注入
+
+* 
+不转义SQL查询中的数据就会有SQL注入漏洞。
+
+* 
+针对SQL注入最佳的方法是使用绑定的参数。
+
+```
+$sql = $db->prepare("SELECT count(*) FROM users WHERE
+username=:username AND password=:hash");
+
+```
+
