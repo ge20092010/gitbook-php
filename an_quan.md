@@ -35,7 +35,7 @@ SQL注入
 
 ```
 $sql = $db->prepare("SELECT count(*) FROM users WHERE
-username=:username AND password=:hash");
+        username=:username AND password=:hash");
 
 ```
 
