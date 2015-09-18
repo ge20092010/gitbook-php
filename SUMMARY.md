@@ -13,7 +13,7 @@
 * [[PHP编程第三版]PDF](pdf.md)
 * [[PHP编程第三版]XML](xml.md)
 * [[PHP编程第三版]安全](an_quan.md)
-* [[PHP编程第三版]应用技术](ying_yong_ji_zhu.md)
+* [[PHP编程第三版]应用技术[完成]](ying_yong_ji_zhu.md)
 * [[PHP编程第三版]不同平台的PHP[完成]](bu_tong_ping_tai_de_php.md)
 * [[PHP编程第三版]网页服务[完成]](wang_ye_fu_wu.md)
 * [[PHP编程第三版]调试PHP[完成]](diao_shi_php.md)
