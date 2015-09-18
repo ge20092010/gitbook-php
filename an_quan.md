@@ -30,6 +30,12 @@ SQL注入
 * 
 不转义SQL查询中的数据就会有SQL注入漏洞。
 
+```
+$name = "a' OR 't'='t";
+$query = "SELECT * FROM users WHERE name='{$name}'";
+echo $query;
+// SELECT * FROM users WHERE name='a' OR 't'='t'
+```
 * 
 针对SQL注入最佳的方法是使用绑定的参数。
 
