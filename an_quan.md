@@ -46,3 +46,4 @@ $sql->bindParam(":username", $clean['username'], PDO::PARAM_STRING, 32);
 $sql->bindParam(":hash", $clean['hash'], PDO::PARAM_STRING, 32);
 ```
 
+
