@@ -36,6 +36,7 @@ SQL注入
 ```
 $sql = $db->prepare("SELECT count(*) FROM users WHERE
         username=:username AND password=:hash");
-
+$sql->bindParam(":username", $clean['username'], PDO::PARAM_STRING, 32);
+$sql->bindParam(":hash", $clean['hash'], PDO::PARAM_STRING, 32);
 ```
 
