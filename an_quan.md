@@ -9,3 +9,7 @@ bool ctype_alpha ( string $text )查看提供的string，text里面的所有字�
 
 * 
 bool ctype_digit ( string $text )检查提供的 string 和 text 里面的字符是不是都是数字。
+
+* 
+bool ctype_lower ( string $text )检查提供的 string 和 text 里面的字符是不是都是小写字母。
+
