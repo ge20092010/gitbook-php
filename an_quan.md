@@ -8,3 +8,4 @@ bool ctype_alnum ( string $text )
 bool ctype_alpha ( string $text )查看提供的string，text里面的所有字符是否只包含字符(字母)
 
 * 
+bool ctype_digit ( string $text )检查提供的 string 和 text 里面的字符是不是都是数字。
