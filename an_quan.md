@@ -48,4 +48,6 @@ $sql->bindParam(":hash", $clean['hash'], PDO::PARAM_STRING, 32);
 检查相对路径
 
 
+检查相对路径
+
 
